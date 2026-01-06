@@ -65,7 +65,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 .failure-wrapper{
     display: flex;
@@ -73,7 +72,7 @@
     align-items: center;
     gap: 87px;
     max-width: 1072px;
-    margin-top: 31px;
+    margin-top: 131px;
 }
 
 .failure-text{
@@ -98,6 +97,7 @@
 }
 .failure-text ul li{
     font-size: 16px;
+    margin-bottom: 8px;
 }
 
 .failure-text ul li::before{
