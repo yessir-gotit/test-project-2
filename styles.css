@@ -59,3 +59,51 @@
     max-width: 160px;
     align-self: flex-end;
 }
+
+#failure{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.failure-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    max-width: 1072px;
+    margin-top: 31px;
+}
+
+.failure-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.failure-text h3{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.failure-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+
+.failure-text ul{
+    list-style-type: none;
+}
+.failure-text ul li{
+    font-size: 16px;
+}
+
+.failure-text ul li::before{
+    content: "✔";
+    color: green;
+    margin-right: 10px;
+}
+
+
